@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+</head>
+<body>
+    <h3>Cuestionario de Cine</h3>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <p>Nombre:
+            <br>
+            <input type="text" name="nombre" size="16" required placeholder="Ingrese su nombre">
+        </p>
+        <p>Apellidos:
+            <br>
+            <input type="text" name="Apellidos" size="16" required placeholder="Ingrese sus apellidos">
+        </p>
+        <p>DNI:
+            <br>
+            <input type="text" name="DNI" size="16" required placeholder="Ingrese su DNI">
+        </p>
+        <p>Edad:
+            <br>
+            <input type="text" name="Edad" size="16" required placeholder="Ingrese su Edad">
+        </p>
+        <p>Sexo
+            <br>
+            <select name="sexo" id="sexo">                
+    <option value="Masculino">Masculino</option>
+    <option value="Femenino">Femenino</option>
+    <option value="nada">No deseo especificar</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Mejor pelicula</legend>
+        <input type="radio" name="El padrino" >El padrino
+        <br>
+        <input type="radio" name="Crepúsculo">Crepúsculo
+        <br>
+        <input type="radio" name="Los odiosos 8">Los odiosos 8
+        <br>
+        <input type="radio" name="Anatomía de un asesinato">Anatomia de un asesinato
+    </fieldset>
+    <fieldset>
+        <legend>Tu opinion</legend>
+        <input type="text" name="opinion" id="opinion" style="width: 15cm; height: 5cm;" placeholder="Ingrese su opinión">
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        
+        <input type="reset" value="Borrar">
+    </p>
+</body>
+</html>
